@@ -1,0 +1,336 @@
+body {
+
+	font-size: 11px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+#header-container {
+	background-repeat: repeat-x;
+	background-image: url(../../v2/images/football/headbg.png);
+	background-position: 0 100%;
+	min-width: 930px;
+	margin: 0;
+	z-index: 10;
+}
+
+table, tr, td
+{
+	color: #000;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, Arial, Verdana, "Trebuchet MS";
+	font-size: 11px;
+	border-radius: 0px;
+}
+
+.tablesubheader-top
+{
+	background-color:#666666;
+	font-size:10px;
+	color: #FFF;
+	font-weight:bold;
+	padding:5px;
+}
+
+.tablesubheader-top a {
+	color: red;
+}
+
+.tablesubheader-top b {
+	color: lightgreen;
+}
+
+.tablesubheader-bottom
+{
+	background-color:#666666;
+	font-size:10px;
+	color: #FFF;
+	font-weight:bold;
+	padding:5px;
+}
+
+.tablesubheader
+{
+	background-color:#C1BEBE;
+	font-size:10px;
+	color: white;
+	font-weight:bold;
+	padding:5px;
+}
+
+.tablerow1
+{
+	background-color:#EAEDF0;
+	padding:6px;
+	border-bottom:1px solid #C1BEBE;
+	border-right:1px solid #C1BEBE;
+	border-top:1px solid #FFF;
+	border-left:1px solid #FFF;
+}
+
+.tablerow2
+{
+	background-color:#F1F1F1;
+	padding:6px;
+	
+	border-bottom:1px solid #C1BEBE;
+	border-right:1px solid #C1BEBE;
+	border-top:1px solid #FFF;
+	border-left:1px solid #FFF;
+}
+
+.tablerow3
+{
+	background-color:#D1DCEB;
+	padding:6px;
+	
+	border-bottom:1px solid #D1DCEB;
+	border-right:1px solid #D1DCEB;
+	border-top:1px solid #FFF;
+	border-left:1px solid #FFF;
+}
+
+
+div.rounded-red {
+	color: #FFFFFF;
+	background-color: #e2001a;
+}
+
+div.rounded-green {
+	color: #FFFFFF;
+	background-color: #3ba800;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clear {
+	clear: both;
+}
+
+h2.title {
+	margin: 0;
+	padding: 4px 10px;
+	font-size: 14px;
+	background-color: #fc6204;
+	position: relative;
+	line-height: 17px;
+}
+
+.rounded-container h2.title {
+	padding: 0px 10px;
+	height: 17px;
+}
+
+h2.title span.habblet-close {
+	position: absolute;
+	top: 0;
+	right: 10px;
+	cursor: pointer;
+	width: 15px;
+	height: 15px;
+	background: url(../../v2/images/close_x.gif) no-repeat;
+}
+
+h2.title, h2.title a {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+
+
+div.rounded-container {
+	margin: 0 4px;
+}
+
+div.box-content {
+	padding: 8px 15px;
+	clear: both;
+}
+
+p {
+	margin: 0;
+	padding-bottom: 1em;
+}
+
+p.last {
+	padding-bottom: 0;
+}
+
+
+.topdialog {
+	text-align: left;
+	position:absolute;
+	width:548px;
+	z-index:9001;
+}
+
+.topdialog-body {
+	padding: 10px 10px 0 10px;
+}
+
+.topdialog .dialog-handle {
+	cursor: move;
+}
+
+a.topdialog-exit {
+	height: 15px;
+	width: 15px;
+	position: absolute;
+	right: 13px;
+	top: 9px;
+	text-indent: -10000px;
+	background: transparent url(../../v2/images/close_x.gif) no-repeat;
+}
+
+.black a.topdialog-exit {
+	background: transparent url(../../v2/images/close_x_black.png) no-repeat;
+}
+
+.topdialog .box-tabs {
+	border-bottom: 1px solid #000;
+}
+
+.topdialog .box-tabs li {
+	float: left;
+}
+
+/* Rounded boxes */
+/* Basic styling, used when JavaScript is unsupported */
+.cbb {
+	margin: 8px;
+	padding: 0;
+	background: #FFFFFF;
+}
+/* Normal styling */
+	/* Top corners and border */
+.bt {
+	height: 5px;
+	margin: 0 0 0 18px;
+	background: no-repeat 100% 0;
+}
+.bt div {
+	position: relative;
+	left: -18px;
+	width: 18px;
+	height: 5px;
+	background: no-repeat 0 0;
+	font-size: 0;
+	line-height: 0;
+	z-index: 1;
+}
+
+	/* Bottom corners and border */
+.bb {
+	height: 9px;
+	margin: 0 0 0 8px;
+	background: no-repeat 100% 100%;
+	position: relative;
+}
+.bb div {
+	position: absolute;
+	left: -8px;
+	width: 8px;
+	height: 9px;
+	background: no-repeat 0 100%;
+	font-size: 0;
+	line-height: 0;
+	display: block;
+}
+
+	/* Left border */
+.i1 {
+	padding: 0 0 0 1px;
+	background: url(../../v2/images/borders.png) repeat-y;
+}
+	/* Right border */
+.i2 {
+	padding: 0 1px 0 0;
+	background: url(../../v2/images/borders.png) repeat-y top right;
+}
+	/* Wrapper for the content. Use it to set the background colour and insert some padding between the borders2 and the content. */
+.i3 {
+	display: block;
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	z-index: 0;
+}
+	/* Make the content wrapper auto clearing so it will contain floats (see http://positioniseverything.net/easyclearing.html). */
+.i3:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.i3 {display: inline-block;}
+.i3 {display: block;}
+
+.topdialog .bt, 
+.topdialog .bt div,
+.topdialog .bb,
+.topdialog .bb div { background-image: url(../../v2/images/box_black_borders.png); }
+.topdialog .i1,
+.topdialog .i2 { background-image: url(../../v2/images/borders_black.png); }
+
+
+/* ip blocked */
+
+
+#overlay {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 9000;
+	background-color: #000000;
+	-moz-opacity: .5;
+	opacity: .50;
+	filter: alpha(opacity=50);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+}
+
+#overlay_progress {
+	position: absolute;
+	top: 0;
+	left: -1500px;
+	z-index: 9000;
+	color: #FFFFFF;
+	text-align: center;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.watch-sparkbars {
+	width: 250px;
+	height:20px;
+	margin:2px 0;
+	border:1px solid #ccc;
+	overflow:hidden;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px
+}
+
+.watch-sparkbar-m1{
+	float:left;
+	height:20px;
+	border-right:1px solid #fff;
+	background:#1e90ff;
+}
+
+.watch-sparkbar-dislikes{
+	float:right;
+	height:20px;
+	margin-right:-1px;
+	background:#8fbc8f;
+}

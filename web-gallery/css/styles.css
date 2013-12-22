@@ -1,0 +1,217 @@
+
+@font-face {
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Ubuntu"), url("http://themes.googleusercontent.com/static/fonts/ubuntu/v4/_xyN3apAT_yRRDeqB3sPRg.woff") format("woff");
+}
+@font-face {
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 700;
+    src: local("Ubuntu Bold"), local("Ubuntu-Bold"), url("http://themes.googleusercontent.com/static/fonts/ubuntu/v4/0ihfXUL2emPh0ROJezvraD8E0i7KZn-EPnyo3HZu7kw.woff") format("woff");
+}
+BODY {
+    background-color: black;
+}
+a.submit-button {
+    display: block;
+}
+.button-link {
+    text-decoration: none;
+}
+#Grau {
+    background: none repeat scroll 0 0 transparent;
+    border: 1px solid #777777;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 1px 1px 6px #9F9F9F inset;
+    margin-left: 5px;
+    margin-top: 10px;
+    padding: 3px;
+    text-shadow: 1px 1px white;
+}
+a {
+    color: black;
+    font-weight: bold;
+}
+.button-container {
+    position: relative;
+}
+.ui-icon {
+    background-repeat: no-repeat;
+    display: block;
+    overflow: hidden;
+    text-indent: -99999px;
+}
+.ui-widget-overlay {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.ui-dialog {
+    overflow: hidden;
+    position: absolute;
+    width: 520px;
+}
+.hides {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+    bottom: 0;
+    display: none;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 2000;
+}
+.dialog-container {
+    display: none;
+}
+.ui-dialog {
+    font-size: 0.8em;
+    margin: auto;
+}
+.ui-dialog .ui-dialog-titlebar-close {
+    background: url("../images/main-sprite.png") no-repeat scroll 0 -563px transparent;
+    height: 20px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 20px;
+}
+.ui-dialog .ui-dialog-titlebar-close:hover {
+    background: url("../images/main-sprite.png") no-repeat scroll 0 -540px transparent;
+}
+#privacy-dialog li {
+    list-style-type: disc;
+    margin: 5px 20px;
+}
+.box-dialog {
+    background: none repeat scroll 0 0 #E2E2E2;
+    border-radius: 6px 6px 6px 6px;
+    padding: 0;
+}
+.box-dialog .line {
+    margin: 0;
+}
+.box-dialog-top {
+    padding: 10px 15px;
+}
+.box-dialog-content {
+    height: auto;
+    overflow: hidden;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+.box-dialog .ui-widget-header {
+    background: url("../images/main-sprite.png") no-repeat scroll 0 -600px transparent;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    height: 7px;
+}
+.underage-dialog .ui-widget-header {
+    background: url("../images/main-sprite.png") no-repeat scroll 0 -586px transparent;
+}
+.ui-dialog-title {
+    display: none;
+}
+.box-dialog .ui-dialog-content {
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+}
+.box-dialog .box-dialog-bottom {
+    background: url("../images/main-sprite.png") no-repeat scroll 0 -605px transparent;
+    height: 7px;
+    margin-top: 4px;
+}
+.button-left {
+    background: url("../images/main-sprite.png") no-repeat scroll 0 -460px transparent;
+    height: 37px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 5px;
+}
+.button-link:active .button-left {
+    background: url("../images/main-sprite.png") no-repeat scroll 0 -500px transparent;
+}
+.button-link:hover .button-container {
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 1px 1px 10px 1px #C4C4C4;
+}
+.button-right {
+    background: url("../images/main-sprite.png") no-repeat scroll 0 -380px transparent;
+    height: 37px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 5px;
+}
+.button-link:active .button-right {
+    background: url("../images/main-sprite.png") no-repeat scroll 0 -420px transparent;
+}
+.button-content {
+    background: url("../images/btn-content-sprite.png") repeat-x scroll 0 0 transparent;
+    color: black;
+    font-size: 0.75em;
+    font-weight: bold;
+    height: 12px;
+    margin: 0 5px;
+    padding: 12px 0 13px;
+    text-align: center;
+    text-shadow: 1px 1px white;
+}
+.button-link:active .button-content {
+    background: url("../images/btn-content-sprite.png") repeat-x scroll 0 -38px transparent;
+}
+a.submit-button {
+    display: block;
+}
+.button {
+    float: right;
+    margin: 7px 10px 0 0;
+}
+.box {
+    background-color: white;
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: 0 0 0 3px darkred;
+    height: 50px;
+    left: 50%;
+    margin-left: -288.5px;
+    position: absolute;
+    top: 15px;
+    width: 577px;
+    z-index: 1000;
+}
+.bild {
+    background-image: url("../images/frank.png");
+    background-repeat: no-repeat;
+    height: 59px;
+    margin: -9px 0 0 10px;
+    position: absolute;
+    width: 57px;
+}
+.titel {
+    color: darkred;
+    font-family: Calibri;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 5px 0 0 80px;
+    position: absolute;
+}
+.beschreibung {
+    color: black;
+    font-family: Calibri;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 25px 0 0 80px;
+    position: absolute;
+}

@@ -1,0 +1,214 @@
+﻿
+
+#nextArrow {
+	padding-top: 1px;
+	float: left;
+	font-family: Segoe UI;
+	font-size: 13px;
+}
+
+#nextArrowHeadlineContainer {
+	float: left;
+	font-family: Myriad Pro Regular;
+	font-size: 10px;
+}
+
+#nextArrowHeadline a {
+	margin-top: 0px;
+	float: left;
+	color: #4D4D4D;
+	text-decoration: none;
+	font-size: 12px;
+	font-family: Segoe UI;
+}
+
+#nextArrowHeadline a:hover {
+	color: #1A1A1A;
+	font-weight: bold;
+}
+
+.headlineArrow {
+	margin-top: 4px;
+}
+
+#lightArrowDown {
+	background-image: url(../../icons/icons.png);
+	background-position: -154px -1px;
+	height: 21px;
+	width: 21px;
+	float: left;
+	margin-right: 5px;
+}
+
+#lightArrowTop {
+	background-image: url(../../icons/icons.png);
+	background-position: -124px -1px;
+	height: 21px;
+	width: 21px;
+	float: left;
+	margin-right: 5px;
+}
+
+#lightArrowLeft {
+	background-image: url(../../icons/icons.png);
+	background-position: 0 0;
+	height: 21px;
+	width: 21px;
+	float: left;
+	margin-right: 5px;
+}
+
+#lightArrowRight {
+	background-image: url(../../icons/icons.png);
+	background-position: -31px 0;
+	height: 21px;
+	width: 21px;
+	float: left;
+	margin-right: 5px;
+}
+
+#darkArrowDown {
+	background-image: url(../../icons/icons.png);
+	background-position: -154px -63px;
+	height: 21px;
+	width: 21px;
+	float: left;
+	margin-right: 5px;
+}
+
+#darkArrowTop {
+	background-image: url(../../icons/icons.png);
+	background-position: -123px -63px;
+	height: 21px;
+	width: 21px;
+	float: left;
+	margin-right: 5px;
+}
+
+#darkArrowLeft {
+	background-image: url(../../icons/icons.png);
+	background-position: 0 -63px;
+	height: 21px;
+	width: 21px;
+	float: left;
+	margin-right: 5px;
+}
+
+#darkArrowRight {
+	background-image: url(../../icons/icons.png);
+	background-position: -31px -63px;
+	height: 21px;
+	width: 21px;
+	float: left;
+	margin-right: 5px;
+}
+
+#lightFilledArrowDown {
+	background-image: url(../../icons/icons.png);
+	background-position: -154px -31px;
+	height: 21px;
+	width: 21px;
+	float: left;
+	margin-right: 5px;
+}
+
+#lightFilledArrowTop {
+	background-image: url(../../icons/icons.png);
+	background-position: -123px -31px;
+	height: 21px;
+	width: 21px;
+	float: left;
+	margin-right: 5px;
+}
+
+#lightFilledArrowLeft {
+	background-image: url(../../icons/icons.png);
+	background-position: 0 -31px;
+	height: 21px;
+	width: 21px;
+	float: left;
+	margin-right: 5px;
+}
+
+#lightFilledArrowRight {
+	background-image: url(../../icons/icons.png);
+	background-position: -31px -31px;
+	height: 21px;
+	width: 21px;
+	float: left;
+	margin-right: 5px;
+}
+
+#darkFilledArrowDown {
+	background-image: url(../../icons/icons.png);
+	background-position: -154px -93px;
+	height: 21px;
+	width: 21px;
+	float: left;
+	margin-right: 5px;
+}
+
+#darkFilledArrowTop {
+	background-image: url(../../icons/icons.png);
+	background-position: -123px -93px;
+	height: 21px;
+	width: 21px;
+	float: left;
+	margin-right: 5px;
+}
+
+#darkFilledArrowLeft {
+	background-image: url(../../icons/icons.png);
+	background-position: 0 -93px;
+	height: 21px;
+	width: 21px;
+	float: left;
+	margin-right: 5px;
+}
+
+#darkFilledArrowRight {
+	background-image: url(../../icons/icons.png);
+	background-position: -31px -93px;
+	height: 21px;
+	width: 21px;
+	float: left;
+	margin-right: 5px;
+}
+
+.otherArrowSpace {
+	margin-top: 5px;
+	margin-left: -15px;
+}
+
+.frankBubbleArrowWhite {
+	background-image: url(../../general/messages/arrowWhite.gif);
+	width: 7px;
+	height: 11px;
+	float: left;
+	margin-left: -6px;
+	margin-top: 15px;
+}
+
+.settingsArrow {
+	width: 0;
+	height: 0;
+	border-top: 20px solid transparent;
+	border-bottom: 20px solid transparent; 
+	border-right:20px solid #424142;
+	float: left;
+	margin-top: -11px;
+	margin-left: -30px;
+	border-radius: 3px;
+}
+
+.managerArrow {
+	width: 0;
+	height: 0;
+	border-top: 20px solid transparent;
+	border-bottom: 20px solid transparent; 
+	border-right:20px solid #424142;
+	float: left;
+	margin-top: -11px;
+	margin-left: -30px;
+	border-radius: 3px;
+}

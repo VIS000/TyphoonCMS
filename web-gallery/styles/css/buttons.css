@@ -1,0 +1,131 @@
+﻿
+
+#submitBlue {
+	background-color: #49AADE;
+	border: 0;
+	padding: 5px 25px 6px 25px;
+	font-family: Segoe UI;
+	font-size: 14px;
+	color: #FFFFFF;
+	cursor: pointer;
+	margin: 0;
+	float: right;
+}
+
+#submitBlue:hover {
+	background-color: #4897C2;
+}
+
+#submitBlue:active {
+	background-color: #508DAD;
+}
+
+#submitDarkBlue {
+	background-color: #21457B;
+	border: 0;
+	padding: 5px 25px 6px 25px;
+	font-family: Segoe UI;
+	font-size: 14px;
+	color: #FFFFFF;
+	cursor: pointer;
+	margin: 0;
+	float: right;
+}
+
+#submitDarkBlue:hover {
+	background-color: #1C375E;
+}
+
+#submitDarkBlue:active {
+	background-color: #182C4A;
+}
+
+#submitGreen {
+	background-color: #8CAE42;
+	border: 0;
+	padding: 5px 25px 6px 25px;
+	font-family: Segoe UI;
+	font-size: 14px;
+	color: #FFFFFF;
+	cursor: pointer;
+	margin: 0;
+	float: right;
+}
+
+#submitGreen:hover {
+	background-color: #708F2E;
+}
+
+#submitGreen:active {
+	background-color: #65783C;
+}
+
+#submitBlack {
+	background-color: #4D4D4D;
+	border: 0;
+	padding: 5px 25px 6px 25px;
+	font-family: Segoe UI;
+	font-size: 14px;
+	color: #FFFFFF;
+	cursor: pointer;
+	margin: 0;
+	float: right;
+}
+
+#submitBlack:hover {
+	background-color: #303030;
+}
+
+#submitBlack:active {
+	background-color: #212121;
+}
+
+#submitRed {
+	background-color: #CA0000;
+	border: 0;
+	padding: 5px 25px 6px 25px;
+	font-family: Segoe UI;
+	font-size: 14px;
+	color: #FFFFFF;
+	cursor: pointer;
+	margin: 0;
+	float: right;
+}
+
+#submitRed:hover {
+	background-color: #B00000;
+}
+
+#submitRed:active {
+	background-color: #950000;
+}
+
+#containerRegister > #joinnowButton {
+	float: right;
+}
+
+#newsContainer > .containerNews > #bar > a > .submitSpace {
+margin-top: 7px;
+}
+
+#topButton {
+	float: right;
+	margin-right: 30px;
+}
+
+input[type=submit]:disabled{
+	opacity: 0.5;
+}
+
+.submitRight {
+	float: right !important;
+}
+
+.submitLeft {
+	float: left !important;
+}
+
+#buttonReadmore {
+	float: left;
+	padding-top: 5px;
+}

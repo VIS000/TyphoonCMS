@@ -1,0 +1,400 @@
+<?php /* Smarty version Smarty-3.1.14, created on 2013-12-14 16:58:21
+         compiled from "tpl\Habbo\community.html" */ ?>
+<?php /*%%SmartyHeaderCode:723152ac801d297c16-45623960%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '73625c37b1e965d404ae847a3b6b3073f194fd9a' => 
+    array (
+      0 => 'tpl\\Habbo\\community.html',
+      1 => 1385482491,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '723152ac801d297c16-45623960',
+  'function' => 
+  array (
+  ),
+  'variables' => 
+  array (
+    'hotelname' => 0,
+    'url' => 0,
+    'CurrentUser' => 0,
+    'Housekeeping' => 0,
+    'users_online' => 0,
+    'Articles' => 0,
+    'news' => 0,
+    'Copyright' => 0,
+  ),
+  'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.14',
+  'unifunc' => 'content_52ac801d35e1f8_51603471',
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_52ac801d35e1f8_51603471')) {function content_52ac801d35e1f8_51603471($_smarty_tpl) {?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title><?php echo $_smarty_tpl->tpl_vars['hotelname']->value;?>
+: Community </title>
+
+<script type="text/javascript">
+var andSoItBegins = (new Date()).getTime();
+</script>
+<link rel="shortcut icon" href="<?php echo $_smarty_tpl->tpl_vars['url']->value;?>
+/web-gallery/v2/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="alternate" type="application/rss+xml" title="Habbo Hotel: RSS" href="<?php echo $_smarty_tpl->tpl_vars['url']->value;?>
+/articles/rss.xml" />
+<meta name="csrf-token" content="8d77c652f7"/>
+<link rel="stylesheet" href="<?php echo $_smarty_tpl->tpl_vars['url']->value;?>
+/web-gallery/static/styles/common.css" type="text/css" />
+<script src="<?php echo $_smarty_tpl->tpl_vars['url']->value;?>
+/web-gallery/static/js/libs2.js" type="text/javascript"></script>
+<script src="<?php echo $_smarty_tpl->tpl_vars['url']->value;?>
+/web-gallery/static/js/visual.js" type="text/javascript"></script>
+<script src="<?php echo $_smarty_tpl->tpl_vars['url']->value;?>
+/web-gallery/static/js/libs.js" type="text/javascript"></script>
+<script src="<?php echo $_smarty_tpl->tpl_vars['url']->value;?>
+/web-gallery/static/js/common.js" type="text/javascript"></script>
+<script src="<?php echo $_smarty_tpl->tpl_vars['url']->value;?>
+/web-gallery/static/js/fullcontent.js" type="text/javascript"></script>
+<link href='//fonts.googleapis.com/css?family=Ubuntu:400,700,400italic,700italic|Ubuntu+Medium' rel='stylesheet' type='text/css'>
+
+<script src="/customjs/local/.nl.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+var ad_keywords = "gender%3Am,age%3A15";
+var ad_key_value = "kvage=15;kvgender=m;kvtags=";
+</script>
+<script type="text/javascript">
+document.habboLoggedIn = true;
+var habboName = "EdwardPHP";
+var habboId = 17824197;
+var facebookUser = false;
+var habboReqPath = "";
+var habboStaticFilePath = "<?php echo $_smarty_tpl->tpl_vars['url']->value;?>
+/web-gallery";
+var habboImagerUrl = "<?php echo $_smarty_tpl->tpl_vars['url']->value;?>
+/habbo-imaging/";
+var habboPartner = "";
+var habboDefaultClientPopupUrl = "<?php echo $_smarty_tpl->tpl_vars['url']->value;?>
+/client";
+window.name = "habboMain";
+if (typeof HabboClient != "undefined") {
+    HabboClient.windowName = "8cb1e3717dfeb88cac370d999fe7d922230ca207";
+    HabboClient.maximizeWindow = true;
+}
+
+
+</script>
+
+<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+
+<meta property="fb:app_id" content="162105803517" />
+
+<meta property="og:site_name" content="Habbo Hotel" />
+<meta property="og:title" content="Habbo Hotel: Community" />
+<meta property="og:url" content="<?php echo $_smarty_tpl->tpl_vars['url']->value;?>
+" />
+<meta property="og:image" content="<?php echo $_smarty_tpl->tpl_vars['url']->value;?>
+/v2/images/facebook/app_habbo_hotel_image.gif" />
+<meta property="og:locale" content="nl_NL" />
+
+<link rel="stylesheet" href="<?php echo $_smarty_tpl->tpl_vars['url']->value;?>
+/web-gallery/static/styles/lightweightmepage.css" type="text/css" />
+<script src="<?php echo $_smarty_tpl->tpl_vars['url']->value;?>
+/web-gallery/static/js/lightweightmepage.js" type="text/javascript"></script>
+
+<meta name="description" content="Maak vrienden, doe mee en val op!" />
+<meta name="keywords" content="habbo hotel, virtueel, wereld, sociaal netwerk, gratis, community, avatar, chat, online, tiener, roleplaying, doe mee, sociaal, groepen, forums, veilig, speel, games, online, vrienden, tieners, zeldzaams, zeldzame meubi, verzamelen, maak, verzamel, kom in contact, meubi, meubeks, huisdieren, kamer inrichten, delen, uitdrukking, badges, hangout, muziek, beroemdheid, HC-visits, celebs, mmo, mmorpgs, massive multiplayer" />
+
+
+
+<!--[if IE 8]>
+<link rel="stylesheet" href="<?php echo $_smarty_tpl->tpl_vars['url']->value;?>
+/web-gallery/static/styles/ie8.css" type="text/css" />
+<![endif]-->
+<!--[if lt IE 8]>
+<link rel="stylesheet" href="<?php echo $_smarty_tpl->tpl_vars['url']->value;?>
+/web-gallery/static/styles/ie.css" type="text/css" />
+<![endif]-->
+<!--[if lt IE 7]>
+<link rel="stylesheet" href="<?php echo $_smarty_tpl->tpl_vars['url']->value;?>
+/web-gallery/static/styles/ie6.css" type="text/css" />
+<script src="<?php echo $_smarty_tpl->tpl_vars['url']->value;?>
+/web-gallery/static/js/pngfix.js" type="text/javascript"></script>
+<script type="text/javascript">
+try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {}
+</script>
+
+<style type="text/css">
+body { behavior: url(/js/csshover.htc); }
+</style>
+<![endif]-->
+<meta name="build" content="63-BUILD-FOR-PATCH-2137a - 12.11.2013 19:56 - nl" />
+</head>
+<body id="home" class=" ">
+<div id="overlay"></div>
+
+<div id="header-container">
+	<div id="header" class="clearfix">
+		<h1><a href="<?php echo $_smarty_tpl->tpl_vars['url']->value;?>
+/"></a></h1>
+
+
+<div id="subnavi" class=wide>
+    <div id="subnavi-search">
+        <div id="subnavi-search-upper">
+        <ul id="subnavi-search-links">
+                <li><a href="/feedback" target="_blank">Stuur een idee in</a></li>
+                <li><a href="https://help.habbo.nl/home" target="habbohelp" >Habbo Help Tool</a></li>
+            <li>
+                <form action="https://www.habbo.nl/account/logout?token=8d77c652f7" method="post">
+                    <button type="submit" id="signout" class="link"><span>Log uit</span></button>
+                </form>
+            </li>
+        </ul>
+        </div>
+    </div>
+    <div id="to-hotel">
+                <a href="<?php echo $_smarty_tpl->tpl_vars['url']->value;?>
+/client" class="new-button green-button" target="8cb1e3717dfeb88cac370d999fe7d922230ca207" onclick="HabboClient.openOrFocus(this); return false;"><b>Naar Hotel</b><i></i></a>
+    </div>
+</div>
+<script type="text/javascript">
+L10N.put("purchase.group.title", "Maak/koop een Groep");
+document.observe("dom:loaded", function() {
+    $("signout").observe("click", function() {
+        HabboClient.close();
+    });
+});
+</script><ul id="navi">
+        <li class="metab">
+<a href="/me">
+<?php echo $_smarty_tpl->tpl_vars['CurrentUser']->value;?>
+
+</a>
+<span></span>
+</li>
+		<li class="selected">
+			<strong>Community</strong><span></span>
+		</li>
+		<li>
+			<a href="/news">Nieuws</a>
+			<span></span>
+		</li>
+		
+		<?php echo $_smarty_tpl->tpl_vars['Housekeeping']->value;?>
+
+</ul>
+
+
+            <div id="habbos-online"><div class="rounded"><span><?php echo $_smarty_tpl->tpl_vars['users_online']->value;?>
+ <?php echo $_smarty_tpl->tpl_vars['hotelname']->value;?>
+'s in het hotel</span></div></div>
+	</div>
+</div>
+
+<div id="content-container">
+
+<div id="navi2-container" class="pngbg">
+    <div id="navi2" class="pngbg clearfix">
+	<ul>
+			<li class="selected">
+				Community
+				
+			</li>
+    		<li class="last">
+				<a href="/staff">Staff</a>
+    		</li>
+
+	</ul>
+    </div>
+</div>
+
+<div id="container">
+	<div id="content" style="position: relative" class="clearfix">
+ <div id="promo-box">
+
+    <div id="promo-bullets"></div>
+	
+	<?php  $_smarty_tpl->tpl_vars['news'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['news']->_loop = false;
+ $_from = array_reverse($_smarty_tpl->tpl_vars['Articles']->value); if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
+foreach ($_from as $_smarty_tpl->tpl_vars['news']->key => $_smarty_tpl->tpl_vars['news']->value){
+$_smarty_tpl->tpl_vars['news']->_loop = true;
+?>
+        <div class="promo-container" style="background-image: url(<?php echo $_smarty_tpl->tpl_vars['url']->value;?>
+/<?php echo $_smarty_tpl->tpl_vars['news']->value['image'];?>
+)">
+            <div class="promo-content-container">
+                <div class="promo-content">
+                    <div class="title"><?php echo $_smarty_tpl->tpl_vars['news']->value['title'];?>
+</div>
+                    <div class="body"><?php echo $_smarty_tpl->tpl_vars['news']->value['shortstory'];?>
+</div>
+                </div>
+            </div>
+            <div class="promo-link-container">
+                    <div class="enter-hotel-btn">
+                        <div class="open enter-btn">
+                            <a style="padding: 0 8px 0 19px;" href="<?php echo $_smarty_tpl->tpl_vars['url']->value;?>
+/news?id=<?php echo $_smarty_tpl->tpl_vars['news']->value['id'];?>
+">Lees meer</a><b></b>
+                        </div>
+                    </div>
+            </div>
+        </div>
+     <?php } ?>
+	 
+        
+        
+
+</div>
+<script type="text/javascript">
+    document.observe("dom:loaded", function() { PromoSlideShow.init(); });
+</script>
+
+
+<div id="column1" class="column">
+			     		
+ 
+
+</div>
+<div id="column2" class="column">
+			     		
+				<div class="habblet-container communityAd">		
+	
+						<div class="ad-container">
+<!--JavaScript Tag // Tag for network 957: Sulake // Website: HabboHotel_NL // Page: Community // Placement: Community marketing_button 160 x 110 (2132216) // created at: Nov 4, 2009 11:04:02 AM-->
+<br>
+</div>
+
+						
+					
+				</div>
+				
+			 
+
+</div>
+<script type="text/javascript">
+HabboView.run();
+</script>
+<div id="column3" class="column">
+			     		
+				<div class="habblet-container community-skyscraper">		
+	
+	
+						<div class="ad-container">
+<!--JavaScript Tag // Tag for network 957: Sulake // Website: HabboHotel_NL // Page: Community // Placement: Community sky_wide 160 x 600 (2132176) // created at: Oct 8, 2009 5:18:22 PM-->
+<script language="javascript">
+<!--
+
+</script><noscript><a href="http://adtech.habbo.com/adlink|3.0|957.1|12132176|0|154|ADTECH;loc=300;alias=;key=;cookie=info;" target="_blank" target="_blank"><img src="http://adtech.habbo.com/adserv|3.0|957.1|2132176|0|154|ADTECH;loc=300;alias=;key=;cookie=info;" border="0"></a></noscript>
+<!-- End of JavaScript Tag -->
+</div>
+
+						
+					
+				</div>
+				<script type="text/javascript">if (!$(document.body).hasClassName('process-template')) { Rounder.init(); }</script>
+			 
+
+</div>
+<!--[if lt IE 7]>
+<script type="text/javascript">
+Pngfix.doPngImageFix();
+</script>
+<![endif]-->
+    </div>
+<div id="footer">
+	<p class="copyright"><?php echo $_smarty_tpl->tpl_vars['Copyright']->value;?>
+</p>
+</div></div>
+
+</div>
+
+
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-448325-5']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>    
+    <script type="text/javascript">
+
+function onClientOpen() {
+    var openHotelLinks = $("enter-hotel").select("a");
+    if (openHotelLinks.length == 1) {
+        if (timeoutID != null) {
+            clearTimeout(timeoutID);
+        }
+        HabboClient.openOrFocus(openHotelLinks[0]);
+    }
+    return false;
+}
+</script>
+
+
+<!-- HL-15281 -->
+<iframe src="http://images.webads.nl/stir/habbo_stir.htm" width=0 height=0 frameborder=no></iframe> 
+
+<!-- Start Quantcast tag -->
+<script type="text/javascript">
+_qoptions={
+qacct:"p-b5UDx6EsiRfMI"
+};
+</script>
+<script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+<noscript>
+<img src="http://pixel.quantserve.com/pixel/p-b5UDx6EsiRfMI.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
+</noscript>
+<!-- End Quantcast tag -->
+
+<!-- ASA-15 -->
+<!-- Begin comScore Inline Tag 1.1105.27 -->
+<script type="text/javascript">
+// <![CDATA[
+function comScore(t){var b="comScore",o=document,f=o.location,a="",e="undefined",g=2048,s,k,p,h,r="characterSet",n="defaultCharset",m=
+(typeof encodeURIComponent!=e?encodeURIComponent:escape);if(o.cookie.indexOf(b+"=")!=-1){p=o.cookie.split(";");for(h=0,f=p.length;
+h<f;h++){var q=p[h].indexOf(b+"=");if(q!=-1){a="&"+unescape(p[h].substring(q+b.length+1))}}}t=t+"&ns__t="+(new Date().getTime());t=t+"&ns_c="+
+(o[r]?o[r]:(o[n]?o[n]:""))+"&c8="+m(o.title)+a+"&c7="+m(f&&f.href?f.href:o.URL)+"&c9="+m(o.referrer);if(t.length>g&&t.indexOf("&")>0){s=t.substr(0,g-8).
+lastIndexOf("&");t=(t.substring(0,s)+"&ns_cut="+m(t.substring(s+1))).substr(0,g)}if(o.images){k=new Image();if(typeof ns_p==e){ns_p=k}k.src=t}else{o.write(["
+<","p","><",'img src="',t,'" height="1" width="1" alt="*"',"><","/p",">"].join(""))}};
+comScore('http'+(document.location.href.charAt(4)=='s'?'s://sb':'://b')+'.scorecardresearch.com/p?c1=2&c2=11546984');
+// ]]>
+</script>
+<noscript><p><img src="http://b.scorecardresearch.com/p?c1=2&amp;c2=11546984" height="1" width="1" alt="*"></p></noscript>
+<!-- End comScore Inline Tag -->
+
+<!-- HL-30554 -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 1042384976;
+var google_conversion_language = "en";
+var google_conversion_format = "3";
+var google_conversion_color = "ffffff";
+var google_conversion_label = "dCMVCPjD7AIQ0JCG8QM";
+var google_conversion_value = 0;
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="http://www.googleadservices.com/pagead/conversion/1042384976/?label=dCMVCPjD7AIQ0JCG8QM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+    
+    
+        
+
+
+</body>
+</html>
+<?php }} ?>

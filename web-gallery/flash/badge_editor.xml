@@ -1,0 +1,10 @@
+<keys>
+<key name="description_txt">Bitte wähle eine Farbe, Symbol und eine Position.</key>
+<key name="symbols_header">Symbols</key>
+<key name="position_header">Position</key>
+<key name="colours_header">Farben</key>
+<key name="base_header">Base</key>
+<key name="base_colours_header">Farben</key>
+<key name="save_btn">Speichern</key>
+<key name="cancel_btn">Abbrechen</key>
+</keys>

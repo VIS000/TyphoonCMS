@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <title>{$hotelname} - Client</title>
+        {literal}
+        <script type="text/javascript">
+//<![CDATA[
+try{if (!window.CloudFlare) { var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",bag2:1,mirage2:0,oracle:0,paths:{cloudflare:"/cdn-cgi/nexp/abv=2980380653/"},atok:"38874e807630177bf01fede5b4707c84",petok:"a4c8ff8a228c7226a99501ff3f89066d-1383402317-1800",zone:"typohotel.net",rocket:"0",apps:{}}];CloudFlare.push({"apps":{"ape":"1c4204eb9862f46ab9e88a2a3b21bc13"}});var a=document.createElement("script"),b=document.getElementsByTagName("script")[0];a.async=!0;a.src="//ajax.cloudflare.com/cdn-cgi/nexp/abv=616370820/cloudflare.min.js";b.parentNode.insertBefore(a,b);}}catch(e){};
+//]]>
+</script>{/literal}
+<link rel="stylesheet" href="{$url}/web-gallery/styles/client.css" type="text/css">
+        {literal}
+        <script type="text/javascript" src="{/literal}{$url}{literal}/js/swfobject.js"></script>
+        <script type="text/javascript">
+            var BaseUrl = "{/literal}{$Client['BASE_DIR']}{literal}";
+            var flashvars =
+            {
+                "client.starting" : "Even geduld, {/literal}{$hotelname}{literal}", 
+                "client.allow.cross.domain" : "1", 
+                "client.notify.cross.domain" : "0", 
+                "connection.info.host" : "{/literal}{$Client['IPADDRES']}{literal}", 
+                "connection.info.port" : "30000", 
+                "site.url" : "http://www.typohotel.net", 
+                "url.prefix" : "http://www.typohotel.net", 
+                "client.reload.url" : "http://www.typohotel.net/client", 
+                "client.fatal.error.url" : "http://www.typohotel.net/me", 
+                "client.connection.failed.url" : "http://www.typohotel.net/me", 
+                "external.variables.txt" : "{/literal}{$Client['BASE_DIR']}{literal}/external_variables.txt", 
+                "external.texts.txt" : "{/literal}{$Client['BASE_DIR']}{literal}/external_flash_texts.txt", 
+                "productdata.load.url" : "{/literal}{$Client['BASE_DIR']}{literal}/productdata.txt", 
+                "furnidata.load.url" : "{/literal}{$Client['BASE_DIR']}{literal}/furnidata.txt", 
+                "use.sso.ticket" : "1", 
+                "sso.ticket" : "{/literal}{$SSOTicket}{literal}", 
+                "processlog.enabled" : "0", 
+                "flash.client.url" : BaseUrl, 
+                "flash.client.origin" : "popup" 
+            };
+            var params =
+            {
+                "base" : BaseUrl + "/",
+                "allowScriptAccess" : "always",
+                "menu" : "false"                
+            };
+            swfobject.embedSWF(BaseUrl + "/Habbo.swf", "client", "100%", "100%", "10.0.0", "{$Client['BASE_DIR']}/expressInstall.swf", flashvars, params, null);
+        </script>
+		{/literal}
+    </head>
+    
+    <body>
+    
+        <div id="client"></div>
+    
+    </body>
+</html>

@@ -1,0 +1,207 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>{$hotelname} Hotel: Home </title>
+
+{literal}<script type="text/javascript">
+var andSoItBegins = (new Date()).getTime();
+</script>{/literal}
+    <link rel="shortcut icon" href="{$url}/web-gallery/v2/favicon.ico" type="image/vnd.microsoft.icon" />
+    <link rel="alternate" type="application/rss+xml" title="{$hotelname}: RSS" href="{$url}/articles/rss.xml" />
+<script src="{$url}/web-gallery/static/js/libs2.js" type="text/javascript"></script>
+<script src="{$url}/web-gallery/static/js/visual.js" type="text/javascript"></script>
+<script src="{$url}/web-gallery/static/js/libs.js" type="text/javascript"></script>
+<script src="{$url}/web-gallery/static/js/common.js" type="text/javascript"></script>
+<script src="{$url}/web-gallery/static/js/fullcontent.js" type="text/javascript"></script>
+<link rel="stylesheet" href="{$url}/web-gallery/v2/styles/style.css" type="text/css" />
+<link rel="stylesheet" href="{$url}/web-gallery/v2/styles/buttons.css" type="text/css" />
+<link rel="stylesheet" href="{$url}/web-gallery/v2/styles/boxes.css" type="text/css" />
+<link rel="stylesheet" href="{$url}/web-gallery/v2/styles/tooltips.css" type="text/css" />
+<link rel="stylesheet" href="{$url}/web-gallery/styles/local/com.css" type="text/css" />
+
+<script src="{$url}/web-gallery/js/local/com.js" type="text/javascript"></script>
+
+{literal}<script type="text/javascript">
+document.habboLoggedIn = true;
+var habboName = "{$CurrentUser}";
+var ad_{$hotelname}words = "";
+var habboReqPath = "{$url}";
+var habboStaticFilePath = "{$url}/web-gallery";
+var habboImagerUrl = "{$url}/habbo-imaging/";
+var habboPartner = "";
+window.name = "habboMain";
+if (typeof HabboClient != "undefined") { HabboClient.windowName = "client"; }
+
+</script>{/literal}
+
+<link rel="stylesheet" href="{$url}/web-gallery/v2/styles/personal.css" type="text/css" />
+<script src="{$url}/web-gallery/static/js/habboclub.js" type="text/javascript"></script>	
+							
+								<link rel="stylesheet" href="{$url}/web-gallery/v2/styles/minimail.css" type="text/css" />
+<link rel="stylesheet" href="{$url}/web-gallery/styles/myhabbo/control.textarea.css" type="text/css" />
+<script src="{$url}/web-gallery/static/js/minimail.js" type="text/javascript"></script>
+
+
+<meta name="description" content="Join the world's largest virtual hangout where you can meet and make friends. Design your own rooms, collect cool furniture, throw parties and so much more! Create your FREE Haddo today!" />
+<meta name="{$hotelname}words" content="Stab, virtual, world, join, groups, forums, play, games, online, friends, teens, collecting, social network, create, collect, connect, furniture, virtual, goods, sharing, badges, social, networking, hangout, safe, music, celebrity, celebrity visits, cele" />
+
+<!--[if IE 8]>
+<link rel="stylesheet" href="{$url}/web-gallery/v2/styles/ie8.css" type="text/css" />
+<![endif]-->
+<!--[if lt IE 8]>
+<link rel="stylesheet" href="{$url}/web-gallery/v2/styles/ie.css" type="text/css" />
+<![endif]-->
+<!--[if lt IE 7]>
+<link rel="stylesheet" href="{$url}/web-gallery/v2/styles/ie6.css" type="text/css" />
+<script src="{$url}/web-gallery/static/js/pngfix.js" type="text/javascript"></script>
+{literal}<script type="text/javascript">
+try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {}
+</script>{/literal}
+
+<style type="text/css">
+body { behavior: url({$url}/web-gallery/js/csshover.htc); }
+</style>
+<![endif]-->
+<meta name="build" content="{$hotelname} Hotel R77" />
+</head>
+<body id="home" class=" ">
+<div id="overlay"></div>
+<div id="header-container">
+	<div id="header" class="clearfix">
+		<h1><a href="{$url}/"></a></h1>
+       <div id="subnavi">
+			<div id="subnavi-user">
+				<ul>
+					
+				</ul>
+			</div>
+            <div id="subnavi-search">
+                <div id="subnavi-search-upper">
+
+                <ul id="subnavi-search-links">
+                    <li><a href="{$url}/help" target="habbohelp" onclick="openOrFocusHelp(this); return false">FAQ</a></li>
+					<li><a href="{$url}/logout.php" class="userlink" id="signout">Log uit</a></li>
+				</ul>
+                </div>
+            </div>
+            <div id="to-hotel">
+					    <a href="{$url}/client" class="new-button green-button" target="client" onclick="HabboClient.openOrFocus(this); return false;"><b>Naar Hotel</b><i></i></a>
+			</div>
+        </div>
+		{literal}<script type="text/javascript">
+		L10N.put("purchase.group.title", "Maak een groep");
+		document.observe("dom:loaded", function() {
+            $("signout").observe("click", function() {
+                HabboClient.close();
+            });
+        });
+        </script>{/literal}
+<ul id="navi">
+		        <li class="selected">
+			<strong>{$CurrentUser} </strong>			<span></span>
+		</li>
+				<li>
+			<a href="{$url}/community">Community</a>			<span></span>
+		</li>
+	
+		
+		</ul>
+
+        <div id="habbos-online"><div class="rounded"><span>{$users_online} {$hotelname}'s in het hotel</span></div></div>
+	</div>
+</div>
+
+<div id="content-container">
+
+	<div id="navi2-container" class="pngbg">
+    <div id="navi2" class="pngbg clearfix">
+		<ul>
+			<li class="">
+				<a href="{$url}/me">Home</a>    		</li>
+					<li class=" last">
+    		
+    		<li class="selected">
+				Instellingen 		</li>
+					<li class=" last">
+                </li>
+			
+
+		</ul>
+    </div>
+</div>
+	
+<div id="container">
+	<div class="content">
+                            <div class="habblet-container" style="float:left; width:210px;">
+                                <div class="cbb settings">
+                                    <h2 class="title">Account Instellingen</h2>
+                                    <div class="box-content">
+                                        <div id="settingsNavigation">
+                                            <ul>
+                                                <li class="selected">Instellingen</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cbb habboclub-tryout">
+                                    <h2 class="title">Koop VIP</h2>
+                                    <div class="box-content">
+                                        <div class="habboclub-banner-container habboclub-clothes-banner"></div>
+                                        <p class="habboclub-header">{$hotelname} VIP kun je door te klikken op "Shop" in de sectie tabs. Daar kunt u kijken op onze grote verscheidenheid van voordelen die we bieden!</p>
+                                        <p class="habboclub-link"><a href="{$url}/vip">Check het {$hotelname} VIP &gt;&gt;</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="habblet-container " style="float:left; width: 560px;">
+                                <div class="cbb clearfix settings">
+                                    <h2 class="title">Profiel bewerken</h2>
+                                    <div class="box-content">
+                                        <form method="post" id="profileForm">
+                                            <h3>Jou motto</h3>
+                                            <p>Jou motto in het Hotel.</p>
+                                            <p><label>Motto:<input type="text" name="acc_motto" size="32" maxlength="32" value="{$Motto}" id="avatarmotto"></label></p>
+                                            <h3>Jou Email adres</h3>
+                                            <p>Je E mailadres is dat je wachtwoord terug kan krijgen vergeet deze email niet!.</p>
+                                            <p><label>Email:<input type="text" name="acc_email" size="32" value="fdhj@kjfhe.nl" id="avatarmotto"></p>
+                                            <h3>Huidige Wachtwoord</h3>
+                                            <p>Uw huidige wachtwoord is het wachtwoord u kunt inloggen op Rolo Hotel.</p>
+                                            <p><label>Password:<input type="password" name="acc_old_password" value="" id="avatarmotto"></p>
+                                            <h3>Nieuwe Wachtwoord</h3>
+                                            <p>Je nieuwe wachtwoord invullen gebruik, gebruik een orginele wachtwoord wat je nooit heb gebruikt.</p>
+                                            <p><label>Nieuwe Wachtwoord:<input type="password" name="acc_new_password" value="" id="avatarmotto"></p>
+                                            <div class="settings-buttons">
+                                                <input type="submit" value="Bewerk" name="account" class="submit" style="float:right">
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <script type="text/javascript">
+                    document.observe('dom:loaded', function() {
+                        CurrentRoomEvents.init();
+                    });
+                </script>
+            </div>
+            <script type="text/javascript">if (!$(document.body).hasClassName('process-template')) { Rounder.init(); }</script>
+            <script type="text/javascript">
+                HabboView.run();
+            </script>
+            <!--[if lt IE 7]>
+               <script type="text/javascript">
+                    Pngfix.doPngImageFix();
+                </script>
+            <![endif]-->
+        </div>
+        
+        <div id="footer" >
+		{$SettingUpdateSystem}
+          		  		</div>
+    </body>
+</html>

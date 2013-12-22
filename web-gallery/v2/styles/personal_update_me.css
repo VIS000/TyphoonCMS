@@ -1,0 +1,93 @@
+/* Personal Info Habblet. Content in three floated columns [UPGRADE] */
+#personal-info a {
+	color: #000;
+}
+
+#personal-info {
+  background-image: url(../images/info_background_overlay.png);
+  padding-right: 0;
+  padding-left: 7px;
+  background-position: 0px -128px;
+  padding-bottom: 5px;
+}
+
+#personal-info .habbo-count {
+	color: #000;	
+}
+
+#personal-info div.hotel-open-button-content a {
+    color: #ffffff;
+}
+
+#personal-info .column {
+  float: left;
+}
+#personal-info .center {
+	width: 160px;
+	margin: 12px 0 0 14px;
+}
+
+#personal-info .left {
+  width: 114px;
+}
+
+#personal-info .right {
+  margin-left: 11px;
+  width: 131px;
+}
+
+#personal-info ul {
+    position: relative;
+}
+#personal-info li {
+    background-repeat: no-repeat;
+    background-position: 0 2px;
+    padding: 2px 0 2px 21px;
+    line-height: 16px;
+}
+#personal-info li.icon-activitypoints {
+    background-image: url(../../v2/images/info_icons.png);
+    background-position: 0 -1070px; padding-left: 18px }
+}
+#personal-info li.icon-consoleactive {
+    background-image: url(../../v2/images/info_icons.png);
+    background-position: 0 9px;
+}
+#personal-info li.icon-consoleinactive {
+    background-image: url(../../v2/images/info_icons.png);
+    background-position: 0 0px;
+}
+#personal-info li.icon-credits {
+    background-image: url(../../v2/images/info_icons.png);
+    background-position: 0 -145px;
+}
+#personal-info li.icon-friends {
+    background-image: url(../../v2/images/info_icons.png);
+    background-position: 0 -863px;
+}
+#personal-info li.icon-getmoney {
+    background-image: url(../../v2/images/info_icons.png);
+    background-position: 0 -476px;
+}
+#personal-info ul span.value {
+    font-weight: bold;
+}
+
+div.habbo-plate {
+	background: url(/web-gallery/v2/images/personal_info/info_habbo_plate.png) no-repeat 10px -163px;
+	text-align: center;
+	height: 128px;
+	padding-bottom:5px;
+}
+
+
+div.habbo-plate {
+	background: url(/web-gallery/v2/images/personal_info/info_habbo_plate.png) no-repeat 2px -162px;
+	text-align: center;
+	height: 138px;
+	width: 96px;
+}
+
+div.habbo-plate:hover {
+	background-position: 2px 75px;
+}

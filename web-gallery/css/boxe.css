@@ -1,0 +1,159 @@
+
+.quiz {
+    background: url("../images/quiz.png") repeat scroll 0 0 transparent;
+    height: 62px;
+    left: 50%;
+    margin-left: -288.5px;
+    position: absolute;
+    top: 10px;
+    width: 577px;
+    z-index: 1000;
+}
+#quiz_layer {
+   
+    left: 50%;
+    margin-left: -260px;
+    position: absolute;
+    top: 100px;
+    width: 520px;
+    z-index: 20002;
+}
+#quiz_layer span {
+    padding-left: 10px;
+    position: absolute;
+    z-index: 20002;
+}
+.quiz_box {
+    background: url("../images/quiz_box.png") repeat scroll 0 0 transparent;
+    height: 450px;
+    margin-top: 0;
+    position: absolute;
+    width: 520px;
+    z-index: 20002;
+}
+.quiz_button {
+    background: url("../images/quiz_button_a.png") repeat scroll 0 0 transparent;
+    float: right;
+    height: 28px;
+    margin-right: 15px;
+    margin-top: 20px;
+    width: 92px;
+}
+.quiz_button:active {
+    background: url("../images/quiz_button_b.png") repeat scroll 0 0 transparent;
+}
+.top {
+    margin-top: -10px;
+    text-align: center;
+}
+.quiz_button_next {
+    background: url("../images/quiz_button_next_a.png") repeat scroll 0 0 transparent;
+    bottom: 20px;
+    height: 44px;
+    margin-right: 30px;
+    position: absolute;
+    right: 0;
+    width: 85px;
+}
+.quiz_button_next:hover {
+    background: url("../images/quiz_button_next_b.png") repeat scroll 0 0 transparent;
+}
+.quiz_button_next:active {
+    background: url("../images/quiz_button_next_c.png") repeat scroll 0 0 transparent;
+}
+
+
+
+
+
+
+
+.quiz_button_back {
+    background: url("../images/quiz_button_back_a.png") repeat scroll 0 0 transparent;
+    bottom: 0;
+    height: 44px;
+    left: 0;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    position: absolute;
+    width: 85px;
+}
+.quiz_button_back:hover {
+    background: url("../images/quiz_button_back_b.png") repeat scroll 0 0 transparent;
+}
+.quiz_button_back:active {
+    background: url("../images/quiz_button_back_c.png") repeat scroll 0 0 transparent;
+}
+.quiz_button_backin {
+    background: url("../images/quiz_button_back_a.png") repeat scroll 0 0 transparent;
+    float: left;
+    height: 54px;
+    margin-left: 15px;
+    margin-top: -5px;
+    width: 94px;
+}
+.quiz_button_backin:hover {
+    background: url("../images/quiz_button_backin_b.png") repeat scroll 0 0 transparent;
+}
+.quiz_button_backin:active {
+    background: url("../images/quiz_button_backin_c.png") repeat scroll 0 0 transparent;
+}
+
+
+.quiz_button_start {
+    background: url("../images/quiz_button_start_a.png") repeat scroll 0 0 transparent;
+    bottom: 20px;
+    height: 44px;
+    margin-right: 30px;
+    position: absolute;
+    right: 0;
+    width: 95px;
+}
+.quiz_button_start:hover {
+    background: url("../images/quiz_button_start_b.png") repeat scroll 0 0 transparent;
+}
+.quiz_button_start:active {
+    background: url("../images/quiz_button_start_c.png") repeat scroll 0 0 transparent;
+}
+
+
+
+#quiz_content {
+    color: #181818;
+    margin: 15px;
+}
+.quiz_button_results {
+    background: url("../images/quiz_button_results_a.png") repeat scroll 0 0 transparent;
+    float: left;
+    height: 45px;
+    margin-left: 15px;
+    margin-top: 5px;
+    width: 157px;
+}
+.quiz_button_results:hover {
+    background: url("../images/quiz_button_results_b.png") repeat scroll 0 0 transparent;
+}
+.quiz_button_results:active {
+    background: url("../images/quiz_button_results_c.png") repeat scroll 0 0 transparent;
+}
+.quiz_button_exit {
+    background: url("../images/quiz_button_exit_a.png") repeat scroll 0 0 transparent;
+    float: right;
+    height: 44px;
+    margin-right: 15px;
+    margin-top: 8px;
+    width: 74px;
+}
+.quiz_button_exit:hover {
+    background: url("../images/quiz_button_exit_b.png") repeat scroll 0 0 transparent;
+}
+.quiz_button_exit:active {
+    background: url("../images/quiz_button_exit_c.png") repeat scroll 0 0 transparent;
+}
+.inputradio {
+    display: none;
+    position: absolute;
+}
+.radio {
+    position: absolute;
+}

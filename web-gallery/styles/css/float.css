@@ -1,0 +1,385 @@
+﻿
+
+.localOverlowTitle {
+	font-size: 20px;
+	float: left;
+	padding-left: 20px;
+	padding-top: 10px;
+}
+
+.localOverlowTitleSettings {
+	font-size: 20px;
+	float: left;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+.localOverlowTitleSecond {
+	font-size: 20px;
+	float: left;
+}
+
+.overlowContainer {
+	background-image: url(../../general/overlow/floatBackground.png) !important;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 9999;
+	display: none;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.overlowContainer.nobackground {
+	background-image: none !important;
+}
+
+.overlowContainer .container {
+	width: 750px;
+	margin: auto;
+	margin-top: 60px;
+	border: solid 1px #393839;
+	border-radius: 4px;
+	background-color: #E7E7E7;
+	-moz-box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+	-webkit-box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+	box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+	padding: 1px 1px 1px 1px;
+}
+
+.overlowContainer .container.scroll {
+	width: 800px; 
+	max-height: 500px; 
+	overflow-y: auto; 
+	overflow-x: hidden;
+}
+
+.overlowContainer .container  .top { 
+	background-color: #FFFFFF;
+	border: solid 1px #FFFFFF;
+	border-radius: 3px;
+}
+
+.overlowContainer .container  .bottom { 
+	background-color: #D6D7D6;
+	border: solid 1px #D6D7D6;
+	border-radius: 3px;
+	height: 2px;
+}
+
+.overlowContainer .container  .text { 
+	padding: 20px 20px 20px 20px;
+	display: table;
+}
+
+.overlowContainer .container  .text.profile { 
+	height: 391px;
+}
+
+#overlowProfile .container .profileLeftB .containerText {
+	margin-left: 4px;
+	margin-top: -46px;
+}
+
+.overlowContainer .container  .closeButton {
+	background-image: url(../../icons/overlowClose.gif);
+	width: 20px;
+	height: 20px;
+	float: right;
+	margin-top: 5px;
+	margin-right: 7px;
+}
+
+.overlowContainer .container  .closeButton:hover {
+	cursor: pointer;
+}
+
+.overlowContainer .container  a .closeButton {
+	background-image: url(../../icons/overlowClose.gif);
+	width: 20px;
+	height: 20px;
+	float: right;
+	margin-top: 5px;
+	margin-right: 7px;
+}
+
+.overlowContainer .container  a .closeButton:hover {
+	cursor: pointer;
+}
+
+#overlowProfile .container  {
+	margin-top: 140px;
+}
+
+#overlowProfile .container .text #overlowProfileTitle {
+	margin-top: -155px;
+	margin-left: -20px;
+	width: 750px;
+}
+
+#overlowProfile .container .text #overlowProfileTitle div #nameIs {
+	font-family: cordia new;
+	font-weight: bold;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-shadow: #000000 -1px 1px 2px;
+	margin-top: 30px;
+	margin-bottom: -20px;
+}
+
+#overlowProfile .container .text #overlowProfileTitle div #name {
+	font-family: cordia new;
+	font-weight: bold;
+	font-size: 36px;
+	color: #FFFFFF;
+	text-shadow: #000000 -1px 1px 2px;
+	margin-top: 25px;
+	margin-bottom: -5px;
+}
+
+#overlowProfile .container .text #overlowProfileTitle #motto {
+	width: auto;
+	height: auto;
+	display: table;
+	margin-top: 10px;
+	margin-left: 30px;
+	margin-bottom: -10px;
+	z-index: 99999;
+}
+
+#overlowProfile .container .text #overlowProfileTitle #motto b{
+	float:left;
+	padding:8px 4px 0 8px;
+	font-size:11px;
+	height:32px;
+	margin-right:3px;
+	background:transparent url(../../general/profile/mottoBackground.gif) no-repeat -3px 0;
+	color:#383838;
+	font-family: Segoe UI Light;
+	font-size: 15px;
+	text-align:center;
+	display:inline;
+}
+
+#overlowProfile .container .text #overlowProfileTitle #motto u{
+	float:left;
+	padding:0px 0px 0px 0px;
+	font-size:11px;
+	height:35px;
+	margin-right:3px;
+	margin-top:-2px;
+	color:#383838;
+	text-decoration:none;
+	font-family: Segoe UI Light;
+	font-size: 15px;
+	text-align:center;
+	display:inline;
+}
+
+#overlowProfile .container .text #overlowProfileTitle #motto div{
+	background:transparent url(../../general/profile/mottoBackground.gif) no-repeat 0 0;
+	width:3px;
+	height:28px;
+	float: right;
+	margin-left: -3px;
+}
+
+#overlowProfile .container .profileLeftB {
+	background-image: url(../../general/profile/leftBackground.gif);
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 745px;
+	height: 385px;
+	float: left;
+	margin-top: 55px;
+	margin-left: -2px;
+}
+
+#overlowProfile .container .profileLeftB .containerText .topLine {
+	padding-top: 30px;
+}
+
+#overlowProfile .container .profileLeftB .containerText .topLine .line {
+	background-image: url(../../general/profile/line.gif);
+	height: 7px;
+	width: auto;
+	float: left;
+	margin-bottom: -10px;
+}
+
+#overlowProfile .container .profileLeftB .containerText .topLine #lineSpacer .line {
+	background-image: url(../../general/profile/line.gif);
+	height: 7px;
+	width: auto;
+	float: left;
+	margin-top: 2px;
+	background-color: #E7E3E7;
+}
+
+#overlowProfile .container .profileLeftB .containerText .topLine #lineSpacer .title {
+	color: #636563;
+	float: left;
+	padding-left: 7px;
+	padding-right: 7px;
+	font-family: verdana;
+	font-size: 9px;
+	font-weight: bold;
+	background-color: #E7E3E7;
+}
+
+#overlowProfile .container .profileLeftB .containerText .topLine #lineSpacer .title div {
+	background-image: url(../../general/profile/arrow.gif);
+	width: 5px;
+	height: 4px;
+	float: right;
+	margin-left: 4px;
+	margin-top: 4px;
+}
+
+#lineSpacer {
+	margin-top: -10px;
+}
+
+#overlowProfile .container .profileLeftB .containerText .right {
+	font-size: 11px;
+	color: #636563;
+	float: right;
+	width: 570px;
+	margin-top: 10px;
+}
+
+#overlowProfile .container .profileLeftB .left {
+	font-size: 11px;
+	color: #636563;
+	float: left;
+	width: 100px;
+	margin-top: 10px;
+	display: none;
+	margin-bottom: -70px;
+}
+
+#overlowProfile .container .profileLeftB .containerText .right .topLine {
+	margin-bottom:40px;
+	margin-top: 20px;
+}
+
+#overlowProfile .container .profileLeftB .containerText .right .topLine .line {
+	background-image: url(../../general/profile/line.gif);
+	height: 7px;
+	width: auto;
+	float: left;
+	margin-bottom: -10px;
+}
+
+#overlowProfile .container .profileLeftB .containerText .right .topLine #lineSpacer .line {
+	background-image: url(../../general/profile/line.gif);
+	height: 7px;
+	width: auto;
+	float: left;
+	margin-top: 2px;
+	background-color: #E7E3E7;
+}
+
+#overlowProfile .container .profileLeftB .containerText .right .topLine #lineSpacer .title {
+	color: #636563;
+	float: left;
+	padding-left: 7px;
+	padding-right: 7px;
+	font-family: verdana;
+	font-size: 8px;
+	font-weight: bold;
+	background-color: #E7E3E7;
+}
+
+#overlowProfile .container .profileLeftB .containerText .right .topLine #lineSpacer .title div {
+	background-image: url(../../general/profile/arrow.gif);
+	width: 5px;
+	height: 4px;
+	float: right;
+	margin-left: 4px;
+	margin-top: 4px;
+}
+
+#overlowProfile .container .profileLeftB .containerText .right .usernameTitle {
+	font-size: 21px;
+	float: left;
+	margin-bottom: -30px;
+	float: right;
+	font-family: cordia new;
+	margin-top: -12px;
+}
+
+#overlowProfile .container .profileLeftB .containerText .right .infoText {
+	padding-top: 25px;
+	display: table;
+	width: 100%;
+}
+
+#overlowProfile .container .profileLeftB .containerText .right .infoText .field {
+	border: solid 1px #B5B5B5;
+	border-bottom-width: 2px;
+	background-color: #EBEBEB;
+	padding: 10px 10px 10px 10px;
+	display: table;
+	border-radius: 3px;
+	float: left;
+	width: 255px;
+}
+
+#overlowProfile .container .profileLeftB .containerText .right .infoText .field.space {
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+.overlowOutSideButton {
+	width: auto;
+	display: table;
+	font-size: 1.10em;
+	text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1), 1px 1px 1px rgba(255, 255, 255, 1);
+	cursor: pointer;
+	float: left;
+	margin-top: -130px;
+	margin-left: 10px;
+}
+
+.overlowOutSideButton:hover {
+	-moz-box-shadow: 0px 0px 3px 3px rgba(255, 255, 255, 0.1);
+	-webkit-box-shadow: 0px 0px 3px 3px rgba(255, 255, 255, 0.1);
+	box-shadow: 0px 0px 3px 3px rgba(255, 255, 255, 0.1);
+	border-radius: 3px;
+}
+
+.overlowOutSideButton:active {
+	-moz-box-shadow: 0px 0px 0px 0px;
+	-webkit-box-shadow: 0px 0px 0px 0px;
+	box-shadow: 0px 0px 0px 0px;
+	opacity: 0.8;
+}
+
+.overlowOutSideButton b{
+	float:left;
+	padding:0 1px 0 8px;
+	height:37px;
+	margin-right:3px;
+	background:transparent url(../../images/register/button-background.gif) no-repeat -4px 0;
+}
+
+.overlowOutSideButton u{
+	float:left;
+	padding:14px 10px 0px 10px;
+	height:37px;
+	margin-right:3px;
+	margin-top:-2px;
+	color:#242424;
+	text-decoration:none;
+	text-align:center;
+	display:inline;	
+	}
+
+.overlowOutSideButton > div{
+	background:transparent url(../../images/register/button-background.gif) no-repeat 0 0;
+	width:4px;
+	height:37px;
+	float: left;
+	margin-left: -3px;
+}

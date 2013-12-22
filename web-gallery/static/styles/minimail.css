@@ -1,0 +1,353 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" />
+	<title>Javvox: La diversión que buscabas</title>
+<script type="text/javascript">
+var andSoItBegins = (new Date()).getTime();
+</script>
+
+    <link rel="shortcut icon" href="http://javvox.com/web-gallery/v2/images/favicon.ico" type="image/vnd.microsoft.icon" />
+    <link rel="alternate" type="application/rss+xml" title=": RSS" href="http://javvox.com/articles/rss.xml" />
+
+<script src="http://javvox.com/web-gallery/static/js/libs2.js" type="text/javascript"></script>
+<script src="http://javvox.com/web-gallery/static/js/landing.js" type="text/javascript"></script>
+<link rel="stylesheet" href="http://javvox.com/web-gallery/v2/styles/frontpage.css" type="text/css" />
+<link rel="stylesheet" href="http://javvox.com/web-gallery/v2/styles/changepassword.css" type="text/css" />
+<link rel="stylesheet" href="http://javvox.com/web-gallery/v2/styles/forcedemaillogin.css" type="text/css" />
+
+<script type="text/javascript">
+document.habboLoggedIn = false;
+var habboName = null;
+var habboReqPath = "";
+var habboStaticFilePath = "./web-gallery";
+var habboImagerUrl = "/habbo-imaging/";
+var habboPartner = "";
+window.name = "habboMain";
+
+</script>
+
+
+
+<meta name="description" content="Javvox Hotel: haz amig@s, únete a la diversión y date a conocer." />
+<meta name="keywords" content="Javvox hotel, mundo, virtual, red social, gratis, comunidad, personaje, chat, online, adolescente, roleplaying, unirse, social, grupos, forums, seguro, jugar, juegos, amigos, adolescentes, raros, furni raros, coleccionable, crear, coleccionar, conectar, furni, muebles, mascotas, diseño de salas, compartir, expresión, placas, pasar el rato, música, celebridad, visitas de famosos, celebridades, juegos en línea, juegos multijugador, premiun, habbo, multijugador masivo" />
+
+<!--[if IE 8]>
+<link rel="stylesheet" href="http://javvox.com/web-gallery/v2/styles/ie8.css" type="text/css" />
+<![endif]-->
+<!--[if lt IE 8]>
+<link rel="stylesheet" href="http://javvox.com/web-gallery/v2/styles/ie.css" type="text/css" />
+<![endif]-->
+<!--[if lt IE 7]>
+<link rel="stylesheet" href="http://javvox.com/web-gallery/v2/styles/ie6.css" type="text/css" />
+<script src="./web-gallery/static/js/pngfix.js" type="text/javascript"></script>
+<script type="text/javascript">
+try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {}
+</script>
+
+<style type="text/css">
+body { behavior: url(./web-gallery/csshover.htc); }
+</style>
+<![endif]-->
+<meta name="build" content="9.0.47 - Login Template - HoloCMS BETA v4.6 UBER" />
+</head>
+<style type="text/css">
+	body {
+             background-color: #000000;
+        }
+        #footer {
+            color: #595959;
+        }
+
+        #footer .footer-links a {
+            color: #333333;
+        }
+
+        #footer .copyright {
+            color: #595959;
+        }
+    </style>
+
+<body id="frontpage">
+
+<div id="overlay"></div>
+
+<div id="site-header">
+
+
+    <form id="loginformitem" name="loginformitem" action="http://javvox.com?name=&password=true"
+          method="post">
+
+        <div style="clear: both;"></div>
+
+        <div id="site-header-content">
+
+            <div id="habbo-logo"></div>
+
+            <div id="login-form">
+
+
+                <div id="login-form-email">
+                    <label for="login-username"
+                           class="login-text">Javvox Nombre</label>
+                    <input tabindex="3" type="text" class="login-field" name="username" id="login-username"
+                           value="" maxlength="48"/>
+                    <input tabindex="6" type="checkbox" name="_login_remember_me" id="login-remember-me"
+                           value="true"/>
+                    <label for="login-remember-me">Mantener conectado</label>
+
+<div id="landing-remember-me-notification" class="bottom-bubble" style="display:none;">
+	<div class="bottom-bubble-t"><div></div></div>
+	<div class="bottom-bubble-c">
+                Seleccionando esta opci&oacute;n permanecer&aacute;s conectado a Javvox hasta que des a la opci&oacute;n 'Desconectar' 
+	</div>
+	<div class="bottom-bubble-b"><div></div></div>
+</div>
+
+                </div>
+
+                <div id="login-form-password">
+                    <label for="login-password" class="login-text">Contrase&ntilde;a</label>
+                    <input tabindex="4" type="password" class="login-field" name="password"
+                           id="login-password" maxlength="32"/>
+
+                    <div id="login-forgot-password">
+                        <a href="./forgot"
+                           id="forgot-password"><span>&iquest;Contrase&ntilde;a olvidada?</span></a>
+                    </div>
+                </div>
+
+                <div id="login-form-submit">
+                    <input type="submit" value="Login" class="login-top-button"
+                           id="login-submit-button"/>
+                    <a href="#" tabindex="5"f
+                       id="login-submit-new-button"><span>Entrar</span></a>
+
+                </div>      </div><br><br><table background=/Premiun_Images/png.png height=39 width=166> <tr> <td><div align="center"><b><font color="black">121 Javvox's Dentro</h1></font></b></div></td> </tr> </table>
+            
+
+	 <script type="text/javascript">
+                HabboView.add(function() {
+                    fieldFocus('login-username');
+                    popdownSetupRun();
+                });
+                HabboView.add(function() {
+                    LandingPage.init();
+                });
+            </script>
+
+        </div>
+
+    </form>
+
+</div>
+
+<div id="fp-container">
+    <div id="content">
+    <div id="column1" class="column">
+			     		
+				<div class="habblet-container ">		
+	
+						<div style="width: 900px; margin: 0 auto">
+<span style="text-shadow: 7px 10px 7px"><span><div id="tagline">
+		
+          <script LANGUAGE="JavaScript1.2"><!--
+
+//Secify scroller contents
+var line=new Array()
+line[1]="Haz amig@s, súmate a la diversión y date a conocer"
+line[2]="Registrate ya, y prueba nuestros mejores beneficios"
+line[3]="Todo lo que siempre has soñado Javvox lo tiene"
+line[4]="Entra y pruebalo todo, muchisimos creditos Gratis"
+line[5]="Placas, rares y furnis custom completamente Gratis"
+line[6]="Ven ya y diviertete al máximo en Javvox."
+
+//Specify font size for scoller
+var ts_fontsize="22px"
+
+//--Don't edit below this line
+
+var longestmessage=1
+for (i=2;i<line.length;i++){
+if (line[i].length>line[longestmessage].length)
+longestmessage=i
+}
+
+//Auto set scroller width
+var tscroller_width=line[longestmessage].length
+
+lines=line.length-1 //--Number of lines
+
+//if IE 4+ or NS6
+if (document.all||document.getElementById){
+document.write('<form name="bannerform">')
+document.write('<input type="text" name="banner" size="'+tscroller_width+'"')
+document.write('  style="background-color: #000000; color: #FFFFFF; font-family: verdana; font-size: '+ts_fontsize+'; font-weight:bold; border: medium none" onfocus="blur()">')
+document.write('</form>')
+}
+
+temp=""
+nextchar=-1;
+nextline=1;
+cursor=""
+function animate(){
+if (temp==line[nextline] & temp.length==line[nextline].length & nextline!=lines){
+nextline++;
+nextchar=-1;
+document.bannerform.banner.value=temp;
+temp="";
+setTimeout("nextstep()",3000)}
+else if (nextline==lines & temp==line[nextline] & temp.length==line[nextline].length){
+nextline=1;
+nextchar=-1;
+document.bannerform.banner.value=temp;
+temp="";
+setTimeout("nextstep()",1000)}
+else{
+nextstep()}}
+
+function nextstep(){
+
+if (cursor=="\\"){
+cursor="|"}
+else if (cursor=="l"){
+cursor="/"}
+else if (cursor=="/"){
+cursor="-"}
+else if (cursor=="-"){
+cursor="\\"}
+
+nextchar++;
+temp+=line[nextline].charAt(nextchar);
+document.bannerform.banner.value=temp+cursor
+setTimeout("animate()",25)}
+
+//if IE 4+ or NS6
+if (document.all||document.getElementById)
+window.onload=animate
+// --></script> </div>
+
+</div>
+
+<div id="frontpage-image-container">
+
+
+    <div id="join-now-button-container">
+        <div id="join-now-button-wrapper-fb">
+            <div class="join-now-alternative">
+
+            </div>
+            <div class="join-now-button">
+                <a class="join-now-link" href="#" onclick="assistedLogin(FB); return false;"> 
+                    <div class="join-now-text-big">Usa Javvox</div>
+                    <div class="join-now-text-small">con<span
+                            class="fbword">Facebook</span></div>
+
+                </a>
+                <span class="close"></span>
+            </div>
+            <div class="join-now-alternative">
+                <a id="register-link-fb" href="/quickregister/start" onclick="startRegistration(); return false;">
+                o crea una Javvox cuenta
+                </a>
+            </div>
+        </div>
+
+        <div id="join-now-button-wrapper">
+            <div class="join-now-alternative">
+     
+            </div>
+            <div class="join-now-button">
+                <a class="join-now-link" id="register-link" href="/quickregister/start"
+                   onclick="startRegistration(); return false;"> 
+                    <div class="join-now-text-big">&Uacute;nete ahora</div>
+
+                    <div class="join-now-text-small">es Gratis</div>
+                </a>
+                <span class="close"></span>
+            </div>
+
+        </div>
+    </div>
+    <script type="text/javascript">
+
+        function startRegistration() {
+    window.location.replace("/quickregister/start");
+        }
+
+    </script>
+
+
+</div><br>
+<a href="./quickregister/start" id="frontpage-image"
+   style="background-image: url('./web-gallery/v2/images/frontpage/hotel_view_low_premiun.png')"></a>
+</div>
+         </div>
+
+<div id="tags-main-container">
+
+    <div id="tags-container" style="width: 650px;">
+        <div class="roundedrect" id="tag-cloud-slim">
+            <span class="tags-habbos-like">Loc@s por</span>
+
+    <ul class="tag-list">
+	    <ul class="tag-list"><li><a href="http://javvox.com/community/tag/azul" class="tag" style="font-size:126%">azul</a> </li>
+<li><a href="http://javvox.com/community/tag/deporte" class="tag" style="font-size:149%">deporte</a> </li>
+<li><a href="http://javvox.com/community/tag/facebook" class="tag" style="font-size:138%">facebook</a> </li>
+<li><a href="http://javvox.com/community/tag/futbol" class="tag" style="font-size:125%">futbol</a> </li>
+<li><a href="http://javvox.com/community/tag/guapo" class="tag" style="font-size:121%">guapo</a> </li>
+<li><a href="http://javvox.com/community/tag/guitarra" class="tag" style="font-size:123%">guitarra</a> </li>
+<li><a href="http://javvox.com/community/tag/ingles" class="tag" style="font-size:140%">ingles</a> </li>
+<li><a href="http://javvox.com/community/tag/javvox" class="tag" style="font-size:200%">javvox</a> </li>
+<li><a href="http://javvox.com/community/tag/laptop" class="tag" style="font-size:159%">laptop</a> </li>
+<li><a href="http://javvox.com/community/tag/ninguno" class="tag" style="font-size:122%">ninguno</a> </li>
+<li><a href="http://javvox.com/community/tag/no" class="tag" style="font-size:121%">no</a> </li>
+<li><a href="http://javvox.com/community/tag/panda" class="tag" style="font-size:130%">panda</a> </li>
+<li><a href="http://javvox.com/community/tag/perros" class="tag" style="font-size:141%">perros</a> </li>
+<li><a href="http://javvox.com/community/tag/pizza" class="tag" style="font-size:146%">pizza</a> </li>
+<li><a href="http://javvox.com/community/tag/pop" class="tag" style="font-size:137%">pop</a> </li>
+<li><a href="http://javvox.com/community/tag/postre" class="tag" style="font-size:145%">postre</a> </li>
+<li><a href="http://javvox.com/community/tag/rap" class="tag" style="font-size:137%">rap</a> </li>
+<li><a href="http://javvox.com/community/tag/rock" class="tag" style="font-size:142%">rock</a> </li>
+<li><a href="http://javvox.com/community/tag/rojo" class="tag" style="font-size:121%">rojo</a> </li>
+<li><a href="http://javvox.com/community/tag/xd" class="tag" style="font-size:121%">xd</a> </li>
+<li><a href="http://javvox.com/community/tag/" class="tag" style="font-size:100%"></a> </li>
+</ul></span></div>
+</ul>
+        </div>
+    </div>
+
+</div>
+
+<script src="http://px.smowtion.com/validate?sid=150305" type="text/javascript"></script>
+	
+
+<!--[if lt IE 7]>
+<script type="text/javascript">
+Pngfix.doPngImageFix();
+</script>
+<![endif]-->
+<div id="footer">
+	<p class="footer-links"><a href="http://javvox.com/" target="_self">Home</a> | <a href="mailto:contacto@javvox.com" target="_new">Cont&aacute;ctanos</a> | <a href="http://javvox.com/forgot" target="_self">&iquest;Contrase&ntilde;a olvidada?</a> |<a href="http://javvox.com/papers/disclaimer" target="_self">T&eacute;rminos y Condiciones</a> | <a href="http://javvox.com/papers/privacy" target="_self">Pol&iacute;tica de Privacidad</a> | <a href="http://twitter.com/#!/Javvox" target="_new">Twitter Oficial</a></p>
+	<p class="copyright">Todos los derechos reservados para JavvoxCMS, este sitio fué creado para la diversión y recreación de nuestros usuarios.<br /> Javvox © 2011 - 2012. Todos los derechos reservados | Phoenix Emulator 3.0 Copyright ©</p><br />
+
+</div></div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+HabboView.run();
+</script>
+
+</body>
+</html>							
+					
+				</div>
+				<script type="text/javascript">if (!$(document.body).hasClassName('process-template')) { Rounder.init(); }</script>
+			 
+
+</div>
+
+
